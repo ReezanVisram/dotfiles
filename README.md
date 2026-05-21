@@ -8,7 +8,7 @@ and use GNU Stow to set up configuration for Neovim and tmux.
 Before proceeding, ensure `stow` is installed.
 
 ## Neovim Setup Instructions
-1. Download Neovim from [source](https://github.com/neovim/neovim/releases). This config is for Neovim >= 0.12.
+1. Download Neovim from [source](https://github.com/neovim/neovim/releases). This config is for Neovim >= 0.12. See instructions [here](https://neovim.io/doc/install/)
 2. Install `git`, `make`, `unzip`, `gcc`, `ripgrep`, `fd-find`, `tree-sitter-cli`, `xclip`. Most of these can be installed from your package manager, but see [here](https://crates.io/crates/tree-sitter-cli) for installing `tree-sitter-cli`.
 3. ```$ cd ~/dotfiles && stow nvim```
 4. Launch neovim and ensure all plugins install correctly
